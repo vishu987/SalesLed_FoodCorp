@@ -68,7 +68,7 @@ head(t1$TOTAL_VALUE)
 
 
 
-fit = lm(TOTAL_VALUE ~ . -CGST -CGST_AMT                         -ZONE_X__other__ -Distributor_Name_ANN.ENTERPRISE  -Distributor_Name_SSS.MARKETING   -Distributor_Name_XYZ.ENTERPRISE  -Distributor_Name_X__other__    -Retailer_Category_BIG.BASKET -TAXABLE_AMT -SGST -Category_Name -`RETAILER,name_X__other__` -Retailer_Category_GT -Variant_Name_Chicken.Nuggets -GROSS_AMT -ZONE_West.Zone -ZONE_South.Zone -Distributor_Name_DAS.DISTRIBUTORS , data = t1)
+fit = lm(TOTAL_VALUE ~ . -CGST -CGST_AMT -ZONE_X__other__ -Distributor_Name_ANN.ENTERPRISE  -Distributor_Name_SSS.MARKETING   -Distributor_Name_XYZ.ENTERPRISE  -Distributor_Name_X__other__    -Retailer_Category_BIG.BASKET -TAXABLE_AMT -SGST -Category_Name -`RETAILER,name_X__other__` -Retailer_Category_GT -Variant_Name_Chicken.Nuggets -GROSS_AMT -ZONE_West.Zone -ZONE_South.Zone -Distributor_Name_DAS.DISTRIBUTORS , data = t1)
 
 alias(fit)
 
